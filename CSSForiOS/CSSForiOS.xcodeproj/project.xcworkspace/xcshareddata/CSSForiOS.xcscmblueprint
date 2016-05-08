@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "01CB9E3383C1EEBE06967BC03395191923415110",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "01CB9E3383C1EEBE06967BC03395191923415110" : 0,
+    "FFE24F389406B1F391DB9871335FD2002CC30A72" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4F4C4DBC-699F-4DB8-8261-6A67A98CFDC3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "01CB9E3383C1EEBE06967BC03395191923415110" : "CSSForiOS\/",
+    "FFE24F389406B1F391DB9871335FD2002CC30A72" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CSSForiOS",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CSSForiOS\/CSSForiOS.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lizelu\/CSSForiOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "01CB9E3383C1EEBE06967BC03395191923415110"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lizelu\/SwiftDelegateDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FFE24F389406B1F391DB9871335FD2002CC30A72"
+    }
+  ]
+}

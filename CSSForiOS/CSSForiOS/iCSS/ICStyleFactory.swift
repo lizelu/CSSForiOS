@@ -22,6 +22,8 @@ let ic_right = "ic_right"
 let ic_bottom = "ic_bottom"
 let ic_width = "ic_width"
 let ic_height = "ic_height"
+let ic_center_x = "ic_center_x"
+let ic_center_y = "ic_center_y"
 
 let icLayoutAttributeMap = createLayoutAttributeMap()
 
@@ -33,6 +35,8 @@ private func createLayoutAttributeMap() -> Dictionary<String, NSLayoutAttribute>
     maps[ic_right] = NSLayoutAttribute.Right
     maps[ic_width] = NSLayoutAttribute.Width
     maps[ic_height] = NSLayoutAttribute.Height
+    maps[ic_center_x] = NSLayoutAttribute.CenterX
+    maps[ic_center_y] = NSLayoutAttribute.CenterY
     
     return maps
 }
@@ -43,7 +47,9 @@ func isLayoutConstraint(attribute: String) -> Bool {
         attribute == ic_right ||
         attribute == ic_bottom ||
         attribute == ic_width ||
-        attribute == ic_height
+        attribute == ic_height ||
+        attribute == ic_center_x ||
+        attribute == ic_center_y
 }
 
 func isSizeAttribute(attribute: String) -> Bool {

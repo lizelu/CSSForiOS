@@ -33,8 +33,6 @@ extension UIView {
                 )
                 return cssDic
             }
-            
-            
             return icDic
         }
         
@@ -48,7 +46,5 @@ extension UIView {
                 )
             }
         }
-        
     }
-    
 }
